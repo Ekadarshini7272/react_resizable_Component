@@ -1,0 +1,24 @@
+.main-container{
+    background-color: #f2f2f2;
+}
+.content-box1, .content-box2, .content-box3{
+    background-color: #fff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 0.5em 3em;
+    margin-bottom: 2em;
+}
+/* default screen view */
+.content-box2{
+    height: 22.5em;
+}
+/* Screen responsive start css */
+@media screen and (min-width: 500px) and (max-width: 768px) {
+    .content-box1, .content-box2{
+        height: 34em;
+    }  
+}
+@media screen and (min-width: 992px) and (max-width: 1440px) {
+    .content-box2{
+        height: 35em;
+    }  
+}
